@@ -10,5 +10,5 @@ char[1] strand;     "+ or - for strand"
 uint    thickStart;   "Start of where display should be thick (start codon)"
 uint    thickEnd;     "End of where display should be thick (stop codon)"
 uint reserved;      "Color value 0,0,255 for positive and 255,0,0 for negative"
-string  evidence;   "Validation of enhancer format: body part [#/#]<br>body part [#/#]"
+string  evidence;   "Validation of enhancer (body part [# positive/# total])"
 )
